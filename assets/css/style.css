@@ -1,4 +1,9 @@
+/* -- this is for the body --*/
 h2 {
     color: blue;
     text-align: center;
+}
+
+p {
+    color: black;
 }
