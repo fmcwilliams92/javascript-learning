@@ -13,6 +13,12 @@ let s = 12;
 let c = t - s;
 console.log(c);
 
+// these are undeclared variables
+h = 10;
+k = 5;
+p = h * k;
+console.log(p);
+
 
 // this is for inner.html 
 function myFunction() {
