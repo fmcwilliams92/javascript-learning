@@ -6,6 +6,13 @@ var y = 4;
 var b = x - y;
 console.log(b);
 
+// this is a let variable
+let t = 67;
+let s = 12;
+
+let c = t - s;
+console.log(c);
+
 
 // this is for inner.html 
 function myFunction() {
