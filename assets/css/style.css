@@ -1,9 +1,10 @@
-/* -- this is for the body --*/
+/*  this is for the body */
 h2 {
     color: blue;
     text-align: center;
 }
 
+/* this is for the paragraphs in the html */
 p {
     color: black;
     font-size: 20px;
