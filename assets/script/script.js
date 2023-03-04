@@ -1,9 +1,9 @@
 // this is a let statement
-let a, b, c;
-a = 20;
-b = 30;
-c = a + b;
-console.log(b-a);
+let lastName, lastname;
+lastName = "john";
+lastname = "google";
+console.log(lastName, lastname);
+// better understanding how the console log works and where to insert it
 
 // this is for inner.html 
 function myFunction() {
