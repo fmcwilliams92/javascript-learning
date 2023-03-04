@@ -1,3 +1,12 @@
+// this is for testing variables
+var x = 6;
+var y = 4;
+
+// this variable assigns b to the value of the expression
+var b = x - y;
+console.log(b);
+
+
 // this is for inner.html 
 function myFunction() {
     document.getElementById("demo").innerHTML =
