@@ -1,3 +1,11 @@
+// general rule, always use const, these variables cannot change
+const productOne = 6;
+const productTwo = 4;
+
+// the let variable lets the value be the result of the expression, in this case addition
+let total = productOne + productTwo;
+console.log(total);
+
 // this is for testing variables
 var x = 6;
 var y = 4;
