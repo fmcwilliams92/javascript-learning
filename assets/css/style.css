@@ -1,14 +1,21 @@
-/* this is for the header */
+/* this is for the header section as a whole*/
 header {
   display: flex;
   flex-wrap: wrap;
   top: 0;
   border: 5px;
+  border-bottom: 10c;
   border-color: black;
   justify-content: space-between;
   padding: 20;
 }
 
+header h2 {
+  color: blue;
+  text-align: center;
+}
+
+/* beginning of nav section */
 header nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -19,11 +26,7 @@ header nav ul {
 header nav ul li a {
   padding: 10px 15px;
 }
-
-header h2 {
-  color: blue;
-  text-align: center;
-}
+/* ending of nav section */
 
 /* -- this is for the body --*/
 p {
