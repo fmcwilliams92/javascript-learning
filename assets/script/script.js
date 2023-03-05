@@ -27,6 +27,10 @@ function myFunction() {
 let length = 16;
 let weight = 7.9;
 
+// this is showing that if you use a numerical with a string, the system will treat the numerical as a string resulting in 20Volvo
+let k = 20 + "Volvo";
+console.log(k);
+
 // strings
 let color = "Blue";
 let name = "Fred";
