@@ -6,7 +6,15 @@ function myFunction() {
 }
 
 // this is a let statement and better understanding how the console log works and where to insert it
-let lastName, lastname;
-lastName = "john";
-lastname = "google";
-console.log(lastName, lastname);
+// let lastName, lastname;
+// lastName = "john";
+// lastname = "google";
+// console.log(lastName, lastname);
+
+let firstName = "Fred";
+let lastName = "McWilliams";
+let age = 30;
+
+let text = firstName + " " + lastName + " " + "and I am" + " " + age + " " + "years old";
+window.alert(text);
+console.log(text)
