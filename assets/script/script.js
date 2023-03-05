@@ -1,3 +1,9 @@
+let carType = "Ford";
+
+function myCar() {
+    document.getElementById("carType").innerHTML = carType;
+}
+
 // general rule, always use const, these variables cannot change
 const productOne = 6;
 const productTwo = 4;
@@ -26,7 +32,6 @@ h = 10;
 k = 5;
 p = h * k;
 console.log(p);
-
 
 // this is for inner.html 
 function myFunction() {
