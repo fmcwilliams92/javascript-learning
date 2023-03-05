@@ -1,3 +1,4 @@
+// these are the declared variables at the beginning of my script
 let firstName = "Fred";
 let lastName = "McWilliams";
 let age = 30;

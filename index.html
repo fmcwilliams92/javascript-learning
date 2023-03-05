@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- this is how you link other pages to your pase html page -->
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- this is how you link other pages to your pase html page -->
+  <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 
 <body>
 
-    
-    <h2>Drilling JS and GitHub skillz</h2>
+  <header class="mainHeader">
+    <div id="headerSection">
+        <h2>Drilling JS and GitHub skillz</h2>
+    </div>
+    <div id="optionsList">
+      <nav>
+        <ul>
+          <li>
+            <a href="test">test</a>
+          </li>
+          <li>
+            <a href="test">test</a>
+          </li>
+          <li>
+            <a href="test">test</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <div id="firstSection">
     <p id="demo">We will be drilling JS code and building on via new branches to not only drill js but also git</p>
-
     <p>Clicking the below button will change the data in this paragraph!</p>
-    
     <button type="button" onclick="myFunction()">Try me!</button>
+  </div>
 
+  <div>
     <p>Who are you and how old are you?</p>
     <button type="button" onclick="returnName()">Tell me my info!</button>
     <p id="userInfo"></p>
-
+  </div>
     
 
 <!-- this is the script linking in the JS file, they can either go in the body or you can put them in the header.-->

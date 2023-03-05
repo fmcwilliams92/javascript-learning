@@ -1,9 +1,28 @@
-/* -- this is for the body --*/
-h2 {
-    color: black;
-    text-align: center;
+/* this is for the header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  top: 0;
+  border: 5px;
+  border-color: black;
+  justify-content: space-between;
 }
 
+nav {
+  margin: 7px 0;
+}
+
+header h2 {
+  color: blue;
+  text-align: center;
+}
+
+#optionsList {
+  display: flex;
+  color: orange;
+}
+
+/* -- this is for the body --*/
 p {
     color: black;
     font-size: 20px;
