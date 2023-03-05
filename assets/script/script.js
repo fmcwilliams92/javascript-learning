@@ -3,6 +3,15 @@ let firstName = "Fred";
 let lastName = "McWilliams";
 let age = 30;
 
+let x = multiplyFunction(4, 3);
+
+function multiplyFunction(a, b) {
+  return a * b,
+  // document.getElementById("multiplyFunction").innerHTML = "The result is" + " " + x,
+  console.log(multiplyFunction);
+}
+
+
 // this is for inner.html 
 function myFunction() {
     document.getElementById("demo").innerHTML =
