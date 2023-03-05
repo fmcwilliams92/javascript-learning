@@ -20,5 +20,5 @@ function myFunction() {
 
 function returnName() {
     document.getElementById("userInfo").innerHTML = firstName + " " + lastName + " " + "and I am" + " " + age + " " + "years old"
-    console.log(returnName);
+    console.log(userInfo);
 }
