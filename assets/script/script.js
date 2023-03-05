@@ -31,6 +31,12 @@ let weight = 7.9;
 let k = 20 + "Volvo";
 console.log(k);
 
+// additionally, in JS, variables can have multiple different data types
+let z;
+z = 10;
+z = "Fred";
+console.log(z);
+
 // strings
 let color = "Blue";
 let name = "Fred";
