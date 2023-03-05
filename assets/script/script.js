@@ -53,3 +53,7 @@ const cars = ["Ford", "Checy", "Toyota", "tesla"];
 
 // date object
 const date = new Date("2023-03-05");
+
+
+let cat = "";
+console.log(cat);
