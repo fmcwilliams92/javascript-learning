@@ -4,7 +4,6 @@
 // declaring multiple variables in one line
 let carType = "Ford", carName = "F150", price = 5000;
 
-
 function myCar() {
     document.getElementById("carType").innerHTML = carType;
     document.getElementById("carName").innerHTML = carName;
@@ -15,13 +14,8 @@ function myCar() {
 // Variables defined with const cannot be Redeclared.
 // Variables defined with const cannot be Reassigned.
 // Variables defined with const have Block Scope.
-const cars = ["Ford", "Volvo", "Chevy", "Tesla"];
-cars.push("Scion");
+const cars = {type:"Tesla", model:"Y", year:2023, color:"White"}
 console.log(cars);
-
-
-
-
 
 // general rule, always use const, these variables cannot change
 const productOne = 6;
