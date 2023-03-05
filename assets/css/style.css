@@ -6,20 +6,23 @@ header {
   border: 5px;
   border-color: black;
   justify-content: space-between;
+  padding: 20;
 }
 
-nav {
-  margin: 7px 0;
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
 }
 
 header h2 {
   color: blue;
   text-align: center;
-}
-
-#optionsList {
-  display: flex;
-  color: orange;
 }
 
 /* -- this is for the body --*/
