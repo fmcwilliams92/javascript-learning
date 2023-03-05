@@ -1,15 +1,27 @@
-// declaring variables at the beginning of your script
-// let carType = "Ford";
-
+// Variables defined with let cannot be Redeclared.
+// Variables defined with let must be Declared before use.
+// Variables defined with let have Block Scope.
 // declaring multiple variables in one line
 let carType = "Ford", carName = "F150", price = 5000;
-console.log(carType, carName, price);
+
 
 function myCar() {
     document.getElementById("carType").innerHTML = carType;
     document.getElementById("carName").innerHTML = carName;
     document.getElementById("price").innerHTML = price;
+    console.log(carType, carName, price);
 }
+
+// Variables defined with const cannot be Redeclared.
+// Variables defined with const cannot be Reassigned.
+// Variables defined with const have Block Scope.
+const cars = ["Ford", "Volvo", "Chevy", "Tesla"];
+cars.push("Scion");
+console.log(cars);
+
+
+
+
 
 // general rule, always use const, these variables cannot change
 const productOne = 6;
