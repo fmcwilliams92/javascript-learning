@@ -1,7 +1,14 @@
-let carType = "Ford";
+// declaring variables at the beginning of your script
+// let carType = "Ford";
+
+// declaring multiple variables in one line
+let carType = "Ford", carName = "F150", price = 5000;
+console.log(carType, carName, price);
 
 function myCar() {
     document.getElementById("carType").innerHTML = carType;
+    document.getElementById("carName").innerHTML = carName;
+    document.getElementById("price").innerHTML = price;
 }
 
 // general rule, always use const, these variables cannot change
