@@ -11,6 +11,7 @@
 
 <body>
 
+  <!-- this is the header -->
   <header>
     <div class="mainHeader">
       <div id="headshot">
@@ -34,29 +35,32 @@
     </div>
   </header>
 
-  <div class="intro">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, et. Animi cupiditate iure ipsa aspernatur rerum quam 
-      inventore dolor illo consequatur iste! Nesciunt quod sint qui optio eligendi nisi voluptate.
-    </p>
-  </div>
+  <!-- these are the main sections of the webpage -->
+  <section class="mainBody">
+    <div id="intro">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, et. Animi cupiditate iure ipsa aspernatur rerum quam 
+        inventore dolor illo consequatur iste! Nesciunt quod sint qui optio eligendi nisi voluptate.
+      </p>
+    </div>
 
-  <div id="firstSection">
-    <p id="demo">We will be drilling JS code and building on via new branches to not only drill js but also git</p>
-    <p>Clicking the below button will change the data in this paragraph!</p>
-    <button type="button" onclick="myFunction()">Try me!</button>
-  </div>
+    <div id="firstSection">
+      <p id="demo">We will be drilling JS code and building on via new branches to not only drill js but also git</p>
+      <p>Clicking the below button will change the data in this paragraph!</p>
+      <button type="button" onclick="myFunction()">Try me!</button>
+    </div>
 
-  <div>
-    <p>This will return my name and age</p>
-    <button type="button" onclick="returnName()">Tell me my info!</button>
-    <p id="userInfo"></p>
-  </div>
+    <div>
+      <p>This will return my name and age</p>
+      <button type="button" onclick="returnName()">Tell me my info!</button>
+      <p id="userInfo"></p>
+    </div>
 
-  <div>
-    <p>What is the result of a * b</p>
-    <button type="button" onclick="multiplyFunction()">Try me!</button>
-    <p id="functionTest"></p>
-  </div>
+    <div>
+      <p>What is the result of a * b</p>
+      <button type="button" onclick="multiplyFunction()">Try me!</button>
+      <p id="functionTest"></p>
+    </div>
+  </section>
     
 
 <!-- this is the script linking in the JS file, they can either go in the body or you can put them in the header.-->

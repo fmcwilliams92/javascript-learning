@@ -3,15 +3,17 @@ let firstName = "Fred";
 let lastName = "McWilliams";
 let age = 30;
 
-let a = 10
-let b = 5
-let c = a * b;
-console.log(c);
+{
+  let a = 10
+  let b = 5
+  let c = a * b;
+  console.log(c);
 
-function multiplyFunction(a, b) {
-  return a * b,
-  document.getElementById("functionTest").innerHTML = c,
-  console.log(multiplyFunction);
+  function multiplyFunction(a, b) {
+    return a * b,
+    document.getElementById("functionTest").innerHTML = c,
+    console.log(multiplyFunction);
+  }
 }
 
 // this is for inner.html 
