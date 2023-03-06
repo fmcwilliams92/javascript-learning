@@ -25,12 +25,14 @@ let age = 30;
     age: 30,
     hairColor: "Blonde"
   }
-
   function personInfo() {
-    document.getElementById("personInfo").innerHTML = person["firstName"] + " " + person["lastName"] + " " + personp["age"];
+    document.getElementById("personInfo").innerHTML = "Hi, my name is" + " " + firstName + " " + lastName + " " + "and I am" + " " + age + " " + "years old";
   }
   console.log(person);
 };
+
+// call the function to populate the data
+personInfo();
 
 // this is for inner.html 
 function myFunction() {
