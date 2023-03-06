@@ -16,6 +16,22 @@ let age = 30;
   }
 }
 
+// this is an object
+// additionally, the values tied to the names in javascript are referred to as properties
+{
+  const person = {
+    firstName: "Fred",
+    lastName: "McWilliams",
+    age: 30,
+    hairColor: "Blonde"
+  }
+
+  function personInfo() {
+    document.getElementById("personInfo").innerHTML = person["firstName"] + " " + person["lastName"] + " " + personp["age"];
+  }
+  console.log(person);
+};
+
 // this is for inner.html 
 function myFunction() {
     document.getElementById("demo").innerHTML =
