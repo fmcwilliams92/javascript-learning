@@ -3,13 +3,16 @@ let firstName = "Fred";
 let lastName = "McWilliams";
 let age = 30;
 
-let x = multiplyFunction(10, 9);
-console.log(x);
+let a = 10
+let b = 5
+let c = a * b;
+console.log(c);
 
 function multiplyFunction(a, b) {
-  return a * b
+  return a * b,
+  document.getElementById("functionTest").innerHTML = c,
+  console.log(multiplyFunction);
 }
-document.getElementById("functionTest").innerHTML = x;
 
 // this is for inner.html 
 function myFunction() {
