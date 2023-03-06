@@ -3,6 +3,14 @@ let firstName = "Fred";
 let lastName = "McWilliams";
 let age = 30;
 
+let x = multiplyFunction(10, 9);
+console.log(x);
+
+function multiplyFunction(a, b) {
+  return a * b
+}
+document.getElementById("functionTest").innerHTML = x;
+
 // this is for inner.html 
 function myFunction() {
     document.getElementById("demo").innerHTML =
@@ -12,5 +20,5 @@ function myFunction() {
 
 function returnName() {
     document.getElementById("userInfo").innerHTML = firstName + " " + lastName + " " + "and I am" + " " + age + " " + "years old"
-    console.log(returnName);
+    console.log(userInfo);
 }
