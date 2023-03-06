@@ -5,7 +5,11 @@
 }
 
 /* this is for the header section as a whole*/
-header {
+/* header {
+
+} */
+
+.mainHeader {
   display: flex;
   flex-wrap: wrap;
   top: 0;
@@ -15,6 +19,8 @@ header {
   justify-content: space-between;
   padding: 20;
   width: 100%;
+  border-bottom: 5cm;
+  border-color: black;
 }
 
 #headshot {
