@@ -61,7 +61,8 @@ header nav ul li a {
 }
 
 #intro {
-  color: var(--third-color);
+  /* color: var(--third-color); */
+  color: red;
 }
 
 /* this is the footer CSS */
