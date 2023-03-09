@@ -16,12 +16,13 @@ body {
 }
 
 /* this is for the header section as a whole*/
-.mainHeader {
+#mainHeader {
   display: flex;
   flex-wrap: wrap;
   top: 0;
   border: 2px solid black;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  /* align-content: space-between; */
   width: 100%;
 }
 
